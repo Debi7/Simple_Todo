@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-box {
+    list-style: none;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    margin-top: 120px;
+    overflow: auto;
+    background-color: aqua;
+}
+
+.button {
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.text {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px; /*TODO почему сливаются все li когда их больше 4 */
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.deleteItem {
+    /* margin-top: -45px;
+    margin-left: 300px; */
+    position: absolute;
+    top: 4px;
+    left: 255px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(219, 39, 129);
+    border: none;   
+    border-radius: 3px;
+    padding: 1px 1px;
+    cursor: pointer;
+    /* background-image: url(); */
+}
